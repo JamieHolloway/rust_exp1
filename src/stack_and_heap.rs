@@ -8,7 +8,7 @@ struct Point
 {
     x: f64,
     y: f64
-}git 
+}
 
 fn origin() -> Point
 {
