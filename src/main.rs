@@ -2,6 +2,8 @@
 mod funcs;
 mod stack_and_heap;
 
+// git hotfix practice
+
 fn main() 
 {
     //funcs::data_types();  // function names need to be snake case per compiler
