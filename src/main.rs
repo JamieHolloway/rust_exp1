@@ -23,4 +23,8 @@ fn if_statement()
     {
         println!("temp is le 30")
     }
+
+    let day = if temp > 30 {"sunny"} else {"cooler"};
+    println!("{}",day);
+    println!("the weather is {}",if temp > 30 {"hot"} else if temp < 30 {"cold"} else {"neither"});
 }
