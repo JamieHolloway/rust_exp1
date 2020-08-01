@@ -24,8 +24,19 @@ fn data_structures()
     println!("{:?}",a);
 
     let b = [1; 10]; 
-    println!("{:?}",b)
-    for i in 0..b.len()]
+    println!("{:?}",b);
+    for i in 0..b.len()
+    {
+        print!("{}-",b[i])
+    }
+
+    let aa:[[f32;3]; 2] = 
+        [
+        [1.0, 0.0, 0.0],
+        [0.0, 2.0, 0.0]
+        ];
+    println!("{:?}",aa)
+
 }
 
 fn control_flow()
